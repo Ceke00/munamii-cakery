@@ -171,6 +171,8 @@ function Products() {
 						src={eightCC}
 						className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-50"
 					/> */}
+				{/* 	minitest */}
+				<p>mini</p>
 
 					<img
 						alt="Cupcakes and wedding cakes"
@@ -199,6 +201,7 @@ function Products() {
 							}}
 							className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#30ab95] to-[#115f51] opacity-20"
 						/>
+
 					</div>
 					<div className="mx-auto max-w-7xl px-6 lg:px-8">
 						<div className="mx-auto max-w-2xl lg:mx-0">
