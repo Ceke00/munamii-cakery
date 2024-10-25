@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @tailwindcss /aspect-ratio; */
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300..700&display=swap");
+
+@font-face {
+	font-family: "StardustAdventure";
+	src: url("./fonts/StardustAdventure.ttf") format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*Colors*/
+:root {
+	--light: white;
+	--pink: #cb5ea2;
+
+	--green: #30ab95;
+	--blue: #aadce6;
+	--darkbrown: #553917;
+
+	--lightpink: #f6e1e0;
+	--darkgreen: #115f51;
 }
+#logo {
+	width: 60px;
+}
+
+body {
+	line-height: 1.4;
+	color: var(--darkbrown);
+	background-color: var(--lightpink);
+	font-family: "Quicksand", sans-serif;
+	background-image: url("./Images/blob-scene-haikei.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 100vh;
+}
+h1,
+h2 {
+	font-family: "StardustAdventure", "Quicksand", sans-serif;
+}
+h1 {
+	font-size: 6rem;
+	line-height: 1;
+}
+h2 {
+	font-size: 4rem;
+}
+@media screen and (max-width:768px){
+	h1 {
+	font-size: 4rem;
+	
+}
+h2 {
+	font-size: 3rem;
+}
+} 
