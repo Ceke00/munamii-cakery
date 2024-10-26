@@ -8,15 +8,15 @@ import { Link } from "react-router-dom";
 function Footer() {
 	return (
 		<footer className="container max-w-screen-lg mx-auto bg-blue p-12 text-darkbrown">
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16 text-left">
-				<div className="mx-auto flex max-w-xs flex-col gap-y-4 text-center">
+			<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16 text-left justify-items-start">
+				<div className=" flex max-w-xs flex-col gap-y-4 justify-self-center sm:justify-self-start">
 					<img
 						src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1498589015.jpg"
 						className="h-28 w-28 hover:scale-125"
 						alt="Munamii Cakery"
 					/>
 				</div>
-				<div className="mx-auto flex max-w-xs flex-col gap-y-4">
+				<div className=" flex max-w-xs flex-col gap-y-4  ">
 					<ul className="text-darkbrown space-y-2">
 						<li>
 							<Link to="/" className="hover:text-darkgreen">
@@ -40,7 +40,7 @@ function Footer() {
 						</li>
 					</ul>
 				</div>
-				<div className="mx-auto flex max-w-xs flex-col gap-y-6">
+				<div className="flex max-w-xs flex-col gap-y-6">
 					<h2 className="text-darkbrown text-4xl">Follow us!</h2>
 					<div className="flex items-center space-x-4">
 						<a
@@ -66,7 +66,7 @@ function Footer() {
 					</div>
 				</div>
 
-				<div className="mx-auto flex max-w-xs flex-col gap-y-4">
+				<div className=" flex max-w-xs flex-col gap-y-4">
 					<h2 className="text-darkbrown text-4xl">Contact us!</h2>
 					<address className="flex items-center space-x-4">
 						<a

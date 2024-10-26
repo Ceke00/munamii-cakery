@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import weddingCake from "../Images/wedding_cake_pink.png";
+/* import munamii_baking from "../Images/munamii_smiles.png"; */
 
 function Home() {
 	return (
@@ -36,7 +37,7 @@ function Home() {
 					</div>
 				</div>
 				<div className="relative mt-16 h-80 lg:mt-8">
-					<img alt="Wedding cake" src={weddingCake} className="absolute -left-60 top-0 w-[57rem] max-w-none" />
+					<img alt="Exclusive wedding cake with roses and gold decorations" src={weddingCake} className="absolute -left-60 top-0 w-[57rem] max-w-none" />
 				</div>
 			</div>
 		</header>

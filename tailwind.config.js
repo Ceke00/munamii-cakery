@@ -16,9 +16,7 @@ module.exports = {
 				indie: ["Indie Flower", "sans-serif"],
 				star: ["StardustAdventure", "sans-serif"],
 			},
-			/* screens: {
-				lg: "1024px",
-			}, */
+			
 		},
 	},
 	plugins: [require("@tailwindcss/aspect-ratio"), require("@tailwindcss/forms")],
