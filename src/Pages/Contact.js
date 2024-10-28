@@ -42,7 +42,14 @@ function Contact() {
         <p className="mt-1 text-sm leading-6 text-darkbrown max-w-prose">
           We'd love to hear from you! Whether you have questions about our
           delicious cupcakes and cakes, or you want to place an order, please
-          fill out the form below.
+          fill out the form below or email us on{" "}
+          <a
+            href="mailto:munamii_cakery@cakelove.com"
+            className="text-darkbrown hover:text-darkgreen  not-italic underline decoration-1 underline-offset-4 "
+          >
+            munamii_cakery@cakelove.com
+          </a>
+          .
         </p>
         <form onSubmit={handleSubmit}>
           <div className="space-y-12">
@@ -62,6 +69,7 @@ function Contact() {
                         name="firstName"
                         type="text"
                         autoComplete="given-name"
+                        placeholder="First Name"
                         required
                         value={formData.firstName}
                         onChange={handleChange}
@@ -83,6 +91,7 @@ function Contact() {
                         name="lastName"
                         type="text"
                         autoComplete="family-name"
+                        placeholder="Last Name"
                         required
                         value={formData.lastName}
                         onChange={handleChange}
@@ -104,6 +113,7 @@ function Contact() {
                         name="email"
                         type="email"
                         autoComplete="email"
+						placeholder="name@mail.com"
                         required
                         value={formData.email}
                         onChange={handleChange}
@@ -126,6 +136,7 @@ function Contact() {
                         type="tel"
                         autoComplete="tel"
                         required
+						placeholder="0000-000000"
                         value={formData.phone}
                         onChange={handleChange}
                         className="block w-full rounded-md border-0 py-1.5 text-darkbrown shadow-sm ring-1 ring-inset ring-darkbrown placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-darkbrown sm:text-sm sm:leading-6"
@@ -146,6 +157,7 @@ function Contact() {
                         name="streetAddress"
                         type="text"
                         autoComplete="street-address"
+						placeholder="Street nr 3"
                         value={formData.streetAddress}
                         onChange={handleChange}
                         className="block w-full rounded-md border-0 py-1.5 text-darkbrown shadow-sm ring-1 ring-inset ring-darkbrown placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-darkbrown sm:text-sm sm:leading-6"
@@ -166,6 +178,7 @@ function Contact() {
                         name="city"
                         type="text"
                         autoComplete="address-level2"
+						placeholder="City"
                         value={formData.city}
                         onChange={handleChange}
                         className="block w-full rounded-md border-0 py-1.5 text-darkbrown shadow-sm ring-1 ring-inset ring-darkbrown placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-darkbrown sm:text-sm sm:leading-6"
@@ -185,6 +198,7 @@ function Contact() {
                         id="postal-code"
                         name="postalCode"
                         type="text"
+						placeholder="000 00"
                         autoComplete="postal-code"
                         value={formData.postalCode}
                         onChange={handleChange}
@@ -212,6 +226,7 @@ function Contact() {
                       name="question"
                       rows={3}
                       value={formData.about}
+					  placeholder="Your question..."
                       onChange={handleChange}
                       className="block w-full rounded-md border-0 py-1.5 text-darkbrown shadow-sm ring-1 ring-inset ring-darkbrown placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-darkbrown sm:text-sm sm:leading-6"
                       defaultValue={""}
