@@ -11,7 +11,7 @@ function Footer() {
 			<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16 text-left justify-items-start">
 				<div className=" flex max-w-xs flex-col gap-y-4 justify-self-center sm:justify-self-start">
 					<img
-						src="https://d2j6dbq0eux0bg.cloudfront.net/images/16830190/1498589015.jpg"
+						src="/logo.webp"
 						className="h-28 w-28 hover:scale-125"
 						alt="Munamii Cakery"
 					/>

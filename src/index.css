@@ -2,58 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300..700&display=swap");
 
 @font-face {
-	font-family: "StardustAdventure";
-	src: url("./fonts/StardustAdventure.ttf") format("truetype");
+  font-family: "StardustAdventure";
+  src: url("./fonts/StardustAdventure.ttf") format("truetype");
 }
 
 /*Colors*/
 :root {
-	--light: white;
-	--pink: #cb5ea2;
+  --light: white;
+  --pink: #cb5ea2;
 
-	--green: #30ab95;
-	--blue: #aadce6;
-	--darkbrown: #553917;
+  --green: #30ab95;
+  --blue: #aadce6;
+  --darkbrown: #553917;
 
-	--lightpink: #f6e1e0;
-	--darkgreen: #115f51;
+  --lightpink: #f6e1e0;
+  --darkgreen: #115f51;
 }
 #logo {
-	width: 60px;
+  width: 60px;
 }
 
 body {
-	line-height: 1.4;
-	color: var(--darkbrown);
-	background-color: var(--lightpink);
-	font-family: "Quicksand", sans-serif;
-	background-image: url("./Images/blob-scene-haikei.svg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	min-height: 100vh;
+  line-height: 1.4;
+  color: var(--darkbrown);
+  background-color: var(--lightpink);
+  font-family: "Quicksand", sans-serif;
+  background-image: url("../public/blob-scene-haikei.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
 }
 h1,
 h2 {
-	font-family: "StardustAdventure", "Quicksand", sans-serif;
+  font-family: "StardustAdventure", "Quicksand", sans-serif;
 }
 h1 {
-	font-size: 6rem;
-	line-height: 1;
+  font-size: 3.5rem;
+  line-height: 0.8;
 }
 h2 {
-	font-size: 4rem;
+  font-size: 2.5rem;
 }
-@media screen and (max-width:768px){
-	h1 {
-	font-size: 4rem;
-	
+@media screen and (min-width: 640px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
 }
-h2 {
-	font-size: 3rem;
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
 }
-} 

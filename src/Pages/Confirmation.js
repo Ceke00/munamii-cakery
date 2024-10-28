@@ -9,7 +9,7 @@ function Confirmation() {
   const firstName = queryParams.get("firstName");
 
   return (
-    <div className="p-10">
+    <div className="px-4 sm:px-6 lg:px-8 py-6">
       <Helmet>
         <title>Munamii Cakery - Confirmation</title>
       </Helmet>

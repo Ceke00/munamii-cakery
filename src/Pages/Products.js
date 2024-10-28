@@ -30,8 +30,8 @@ function Products() {
             className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center brightness-50"
           />
 
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:mx-0">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-10">
+            <div className="mx-auto max-w-2xl lg:mx-0 ">
               <h1 className="text-white">Products</h1>
               <p className="mt-8 text-lg font-medium text-white sm:text-xl">
                 Explore our delightful range of cupcakes and wedding cakes,

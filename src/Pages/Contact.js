@@ -35,9 +35,9 @@ function Contact() {
         className="relative isolate overflow-hidden bg-fixed bg-center bg-cover h-80"
         style={{ backgroundImage: `url(${munamii_baking})` }}
       >
-        <div className="absolute inset-0 bg-black opacity-25"></div>´
+        <div className="absolute inset-0 bg-black opacity-25"></div>
       </div>
-      <div className="p-10">
+      <div className="px-4 sm:px-6 lg:px-8 py-6">
         <h1>Contact us</h1>
         <p className="mt-1 text-sm leading-6 text-darkbrown max-w-prose">
           We'd love to hear from you! Whether you have questions about our
