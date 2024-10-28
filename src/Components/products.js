@@ -5,6 +5,7 @@ import lace_wc from "../Images/weddingCakes/weddingcake/lace_weddingcake.webp";
 import fantasy_wc from "../Images/weddingCakes/weddingcake/fantasy_weddingcake.webp";
 import golden_wc from "../Images/weddingCakes/weddingcake/golden_weddingcake.webp";
 import color_wc from "../Images/weddingCakes/weddingcake/colorful_weddingcake.webp";
+import detail_wc from "../Images/weddingCakes/weddingcake/weddingcake_details.webp";
 import vanilla_cc from "../Images/cupcakes/cupcakes/vanilla_cupcake.webp";
 import pink_cc from "../Images/cupcakes/cupcakes/pink_cupcake.webp";
 import strawberry_cc from "../Images/cupcakes/cupcakes/strawberry_cupcake.webp";
@@ -38,7 +39,7 @@ export const weddingCakes = [
 		id: 3,
 		name: "Classic White Cake",
 		price: "$180",
-		imageSrc: flower_wc,
+		imageSrc: detail_wc,
 		imageAlt: "A classic white wedding cake with intricate designs.",
 		productDescription:
 			"A classic white wedding cake with intricate designs. This timeless cake is made with layers of fluffy white sponge and a creamy almond frosting. A perfect choice for a traditional wedding.",
