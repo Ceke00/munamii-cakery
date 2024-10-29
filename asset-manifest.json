@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/munamii-cakery/static/css/main.9fe1de68.css",
+    "main.js": "/munamii-cakery/static/js/main.f5a8caa9.js",
+    "static/media/wedding_cake_pink.png": "/munamii-cakery/static/media/wedding_cake_pink.265f9ecba46a9a7a1556.png",
+    "static/media/8_cupcakes.jpeg": "/munamii-cakery/static/media/8_cupcakes.cb1afc8b78e533da22c8.jpeg",
+    "static/media/couple_cake.jpeg": "/munamii-cakery/static/media/couple_cake.74fa89c1d43a7b1533f1.jpeg",
+    "static/media/munamii_baking.jpeg": "/munamii-cakery/static/media/munamii_baking.03d194c4f6e76a4e3a82.jpeg",
+    "static/media/happy_munamii.jpeg": "/munamii-cakery/static/media/happy_munamii.dad3657bc013c219f9e3.jpeg",
+    "static/media/munamii_cake.jpeg": "/munamii-cakery/static/media/munamii_cake.1c43cff69bd6e5b1283b.jpeg",
+    "static/media/StardustAdventure.ttf": "/munamii-cakery/static/media/StardustAdventure.9ced091781c409e431b0.ttf",
+    "static/media/fantasy_weddingcake.webp": "/munamii-cakery/static/media/fantasy_weddingcake.08d7a9d4213b180c2057.webp",
+    "static/media/cupcake_wedding.webp": "/munamii-cakery/static/media/cupcake_wedding.57e4d9886e5e4e8fff45.webp",
+    "static/media/lace_weddingcake.webp": "/munamii-cakery/static/media/lace_weddingcake.4901223e78c1a80f7a39.webp",
+    "static/media/winter_cupcake.webp": "/munamii-cakery/static/media/winter_cupcake.c697cf6daeeb9090bbff.webp",
+    "static/media/weddingcake_flower.webp": "/munamii-cakery/static/media/weddingcake_flower.4456f4a23aa230ece722.webp",
+    "static/media/weddingcake_bird.webp": "/munamii-cakery/static/media/weddingcake_bird.4f76f6ceae87ff3e12e7.webp",
+    "static/media/weddingcake_details.webp": "/munamii-cakery/static/media/weddingcake_details.59c5ec796344139a2e74.webp",
+    "static/media/blueberry_cupcake.webp": "/munamii-cakery/static/media/blueberry_cupcake.a47d0dcb7ffd22e53d04.webp",
+    "static/media/golden_weddingcake.webp": "/munamii-cakery/static/media/golden_weddingcake.a77064b0510fece2d55b.webp",
+    "static/media/weddingcake_flowers.webp": "/munamii-cakery/static/media/weddingcake_flowers.dd2c01c1f3b53620a93a.webp",
+    "static/media/colorful_weddingcake.webp": "/munamii-cakery/static/media/colorful_weddingcake.27f5210efb944b4f4e9c.webp",
+    "static/media/strawberry_cupcake.webp": "/munamii-cakery/static/media/strawberry_cupcake.7c5a94fa35baea7ad502.webp",
+    "static/media/pink_cupcake.webp": "/munamii-cakery/static/media/pink_cupcake.e6fd121acf9c4903625c.webp",
+    "static/media/vanilla_cupcake.webp": "/munamii-cakery/static/media/vanilla_cupcake.6e96142073fde3aa86c5.webp",
+    "static/media/crunch_cupcake.webp": "/munamii-cakery/static/media/crunch_cupcake.1dce0a39a515b3d83d36.webp",
+    "static/media/chocolate_mint_cupcake.webp": "/munamii-cakery/static/media/chocolate_mint_cupcake.7231b4e8184c879e5c5b.webp",
+    "static/media/red_cupcake.webp": "/munamii-cakery/static/media/red_cupcake.1fdd80353ac408b4eff3.webp",
+    "static/media/lemon_cupcake.webp": "/munamii-cakery/static/media/lemon_cupcake.065ba2a43b9b0d193c10.webp",
+    "static/media/blob-scene-haikei.svg": "/munamii-cakery/static/media/blob-scene-haikei.e92c47ca12637f3531a5.svg",
+    "index.html": "/munamii-cakery/index.html",
+    "main.9fe1de68.css.map": "/munamii-cakery/static/css/main.9fe1de68.css.map",
+    "main.f5a8caa9.js.map": "/munamii-cakery/static/js/main.f5a8caa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fe1de68.css",
+    "static/js/main.f5a8caa9.js"
+  ]
+}
