@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../Images/logo.webp"
 
 const navigation = [
 	{ name: "Home", to: "/" },
@@ -27,7 +28,7 @@ function NavBar() {
             <img
               alt="To Munamii Cakery Home Page"
             
-              src="/logo.webp"
+              src={logo}
               className="h-20 w-auto"
             />
           </Link>
@@ -70,7 +71,7 @@ function NavBar() {
               <span className="sr-only">Home</span>
               <img
                 alt="To Munamii Cakery Home Page"
-                src="/logo.webp"
+                src={logo}
                 className="h-20 w-auto"
               />
             </Link>

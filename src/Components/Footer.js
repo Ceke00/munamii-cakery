@@ -3,6 +3,7 @@ import React from "react";
 import { FaInstagram, FaExternalLinkAlt, FaFacebook } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
+import logo from "../Images/logo.webp";
 
 
 function Footer() {
@@ -11,7 +12,7 @@ function Footer() {
 			<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16 text-left justify-items-start">
 				<div className=" flex max-w-xs flex-col gap-y-4 justify-self-center sm:justify-self-start">
 					<img
-						src="/logo.webp"
+						src={logo}
 						className="h-28 w-28 hover:scale-125"
 						alt="Munamii Cakery"
 					/>
