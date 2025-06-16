@@ -11,7 +11,6 @@ function About() {
       <Helmet>
         <title>Munamii Cakery - About us</title>
       </Helmet>
-      ;
       <div>
         {/* Header */}
         <header>
